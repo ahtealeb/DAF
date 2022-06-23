@@ -1,0 +1,178 @@
+/* Starting Custome Styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+/* Header  area navbar */
+header {
+  border-bottom: 1px solid #cccc;
+}
+header .navbar .navbar-brand {
+  font-size: 20px;
+  color: #707070;
+}
+header .navbar .navbar-brand .logo-bold {
+  font-size: 24px;
+  font-weight: bold;
+}
+header .navbar .navbar-brand .logo-red {
+  color: #680f35;
+}
+header .navbar .profile-photo img {
+  width: 60px;
+}
+header .navbar .profile-photo .nav-link {
+  color: #1f1f1f;
+}
+
+/* Starting main content style */
+
+.main {
+  margin-top: 20px;
+}
+
+/* Side menu */
+.main .side-menu .side-item {
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+  transition: ease-in-out 0.1s all;
+}
+.main .side-menu .side-item:hover {
+  background-color: #f7f7f7;
+  padding-left: 15px;
+}
+.main .side-menu .side-item a {
+  text-decoration: none;
+}
+.main .side-menu .side-item a > span {
+  margin-right: 10px;
+}
+.main .side-menu .side-item img {
+  width: 20px;
+  /*  */
+}
+.main .side-menu .side-item .badge {
+  background-color: #680f35;
+}
+
+/* Main contant */
+.main .main-content .nav {
+  background-color: #e5e5e5;
+  padding: 15px;
+}
+.main .main-content .nav p {
+  font-size: 28px;
+  font-weight: 700;
+  color: #707070;
+  margin-bottom: 0;
+}
+.main .main-content .search-filed {
+  position: relative;
+}
+.main .main-content .search-filed img {
+  width: 20px;
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  filter: opacity(0.2);
+}
+.main .main-content .search-filed .form-control {
+  padding-left: 40px;
+  border-radius: 10px;
+  border: 0;
+}
+.main .main-content .settings {
+  border-left: 2px solid #f1f1f1;
+  padding: 0 15px;
+}
+.main .main-content .settings a {
+  text-decoration: none;
+  position: relative;
+}
+
+.main .main-content .settings a:first-child::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fe718e;
+  right: 0;
+  top: -6px;
+}
+.main .main-content .settings i {
+  color: #707070;
+  margin: 0 10px;
+}
+
+/* Claims filter */
+.main .main-content .claims-filter {
+  margin-right: 40px;
+}
+
+.main .main-content .col-10 {
+  position: relative;
+}
+.main .main-content .claims-filter img {
+  width: 20px;
+  position: absolute;
+  top: 14px;
+  right: 50px;
+  filter: opacity(0.2);
+}
+.main .main-content .claims-filter .form-select-lg {
+  border-radius: 15px;
+}
+.main .main-content .claims-filter .btn {
+  background-color: #680f35;
+  border: 0;
+  border-radius: 0;
+  padding: 12px 22px;
+}
+
+/* Pivot chart */
+.main .main-content .pivot-chart .table-content {
+  padding: 20px;
+  background-color: #fafafa;
+}
+.main .main-content .pivot-chart .table-content th {
+  padding: 10px;
+}
+.main .main-content .pivot-chart .table-content th,
+.main .main-content .pivot-chart .table-content tr {
+  font-size: 14px;
+  font-weight: 400;
+}
+.main .main-content .pivot-chart .table-content tbody {
+  border-top: 0;
+}
+.main tbody td:nth-child(3) {
+  min-width: 200px;
+}
+
+.main tbody td:last-child {
+  width: 150px;
+}
+
+.main .main-content .pivot-chart .progress-bar {
+  background-color: #7273df;
+}
+
+
+/* final edits */
+.main .main-content .claims-filter .btn {
+  float: right;
+}
+.main .main-content .claims-filter {
+  margin: 0px;
+}
+.btn-info {
+  background-color: #680f35;
+  color: #fff;
+  border:#680f35
+}
+
+.btn-info:hover {
+  background-color: #a0094b;
+  color: #fff;
+}
